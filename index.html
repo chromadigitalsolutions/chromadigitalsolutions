@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chroma Digital | Luxury Social Media Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #ff6d00 0%, #ff914d 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.05);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link {
+            color: #ffffff !important;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #ff6d00;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-black shadow-lg sticky top-0 z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex items-center">
+                    <div class="flex items-center -space-x-20">
+                      <img src = "Assets/CHROMA MASTER LOGO 1.1 TRANSPARENT.png" alt="Chroma Digital Logo" class="h-44 w-auto">
+                      <div class="flex flex-col leading-tight">
+                        <span style="font-family: 'AkzidenzGrotesk', sans-serif;"class="text-2xl font-bold text-white">Chroma Digital</span>
+                        <span class = "text-sm text-[#ff914d] -mt-1"> Optimized. Analyzed. Intensified.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-900 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#services" class="nav-link text-gray-900 px-3 py-2 text-sm font-medium">Services</a>
+                    <a href="#about" class="nav-link text-gray-900 px-3 py-2 text-sm font-medium">About</a>
+                    <a href="#contact" class="nav-link text-gray-900 px-3 py-2 text-sm font-medium">Contact</a>
+                    <a href="#contact" class="bg-[#ff6d00] text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-[#ff914d] transition duration-300">Get Started</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-gray-900 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md">Home</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md">Services</a>
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md">About</a>
+                <a href="#testimonials" class="block px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md">Testimonials</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 rounded-md">Contact</a>
+                <a href="#contact" class="block w-full text-center bg-indigo-600 text-white px-6 py-2 rounded-md text-base font-medium hover:bg-indigo-700 transition duration-300 mt-2">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-black text-white py-20 md:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                  <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"> Stand <span class="text-[#cc4e00]">Out.</span> <br> Scale <span class="text-[#cc4e00]">Up.</span> </h1>
+
+
+                    <p class="text-lg md:text-xl mb-8 opacity-90">You put in the work. It’s time the world noticed. Our premium strategies deliver unmatched quality, reach, and results.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contact" class="bg-white text-[#ff6d00] px-8 py-3 rounded-md text-lg font-semibold hover:bg-gray-100 transition duration-300 text-center">Get Started</a>
+                        <a href="#services" class="border-2 border-white text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-white hover:bg-opacity-10 transition duration-300 text-center">Our Services</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Social Media Marketing" class="rounded-lg shadow-2xl max-w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Stats Section -->
+<section style="background-color: #cc4e00;" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-white mb-2">100%</div>
+                    <div class="text-white">Founder Led</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-white mb-2">0</div>
+                    <div class="text-white">Outsourced Work</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-white mb-2">2</div>
+                    <div class="text-white">Dedicated College Students</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-white mb-2">24/7</div>
+                    <div class="text-white">Client Focused</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our <span class="text-[#cc4e00]">Premium</span> Services</h2>
+                <p class="text-lg text-gray-400 max-w-3xl mx-auto">Exclusive digital marketing solutions for elite brands</p>
+            </div>
+           
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Service 1 -->
+                <div class="service-card bg-black border border-gray-800 rounded-xl shadow-lg p-8 transition duration-300 hover:border-[#cc4e00]">
+                    <div class="w-16 h-16 bg-[#cc4e00] bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-camera-retro text-[#cc4e00] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Social Media Managing</h3>
+                    <p class="text-gray-400 mb-4">Premium content crafted by our creative team to showcase your brand's luxury aesthetic.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Content Creation
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Post Scheduling & Optimization
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Light Engagement (DM's/Comments)
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-[#cc4e00] font-medium hover:text-[#e68a00] inline-flex items-center">
+                        Learn more <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+               
+                <!-- Service 2 -->
+                <div class="service-card bg-black border border-gray-800 rounded-xl shadow-lg p-8 transition duration-300 hover:border-[#cc4e00]">
+                    <div class="w-16 h-16 bg-[#cc4e00] bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-ad text-[#cc4e00] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Content Creation</h3>
+                    <p class="text-gray-400 mb-4">Strategic ad campaigns on Facebook, Instagram, LinkedIn, and TikTok to drive targeted traffic and conversions for your business.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Custom Graphics
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Short Form Video
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Editing & Optimization
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-[#cc4e00] font-medium hover:text-[#e68a00] inline-flex items-center">
+                        Learn more <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+               
+                <!-- Service 3 -->
+                <div class="service-card bg-black border border-gray-800 rounded-xl shadow-lg p-8 transition duration-300 hover:border-[#cc4e00]">
+                    <div class="w-16 h-16 bg-[#cc4e00] bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-pie text-[#cc4e00] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Short-Form Video Editing</h3>
+                    <p class="text-gray-400 mb-4">We develop data-driven content strategies that resonate with your audience and align with your business objectives.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Hook Optimization
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Subtitles & Transitions
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Music & B-roll
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-[#cc4e00] font-medium hover:text-[#e68a00] inline-flex items-center">
+                        Learn more <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+               
+                <!-- Service 4 -->
+                <div class="service-card bg-black border border-gray-800 rounded-xl shadow-lg p-8 transition duration-300 hover:border-[#cc4e00]">
+                    <div class="w-16 h-16 bg-[#cc4e00] bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-[#cc4e00] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Paid Ads Management</h3>
+                    <p class="text-gray-400 mb-4">Platforms: Meta, Tiktok, Google</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Ad creative design
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Campaign Setup + A/B Testing
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Weekly Optimization
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-[#cc4e00] font-medium hover:text-[#e68a00] inline-flex items-center">
+                        Learn more <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+               
+                <!-- Service 5 -->
+                <div class="service-card bg-black border border-gray-800 rounded-xl shadow-lg p-8 transition duration-300 hover:border-[#cc4e00]">
+                    <div class="w-16 h-16 bg-[#cc4e00] bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-video text-[#cc4e00] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Starter Website (1-3 Pages)</h3>
+                    <p class="text-gray-400 mb-4">Engaging video content optimized for social media platforms to capture attention and tell your brand story effectively.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Custom Homepage, About, and Contact Page
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Responsive Mobile Design
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Basic SEO setup & Contact Form
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-[#cc4e00] font-medium hover:text-[#e68a00] inline-flex items-center">
+                        Learn more <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+               
+                <!-- Service 6 -->
+                <div class="service-card bg-black border border-gray-800 rounded-xl shadow-lg p-8 transition duration-300 hover:border-[#cc4e00]">
+                    <div class="w-16 h-16 bg-[#cc4e00] bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-search-dollar text-[#cc4e00] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Standard Business Website (4-6 pages)</h3>
+                    <p class="text-gray-400 mb-4">Comprehensive performance tracking and actionable insights to measure ROI and optimize your social media strategy.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Homepage + Up to Five Additional Pages
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> On-page SEO
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-check-circle text-[#cc4e00] mr-2"></i> Embedded Social Links, Maps, Booking Forms
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-[#cc4e00] font-medium hover:text-[#e68a00] inline-flex items-center">
+                        Learn more <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Our Team" class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About <span class="text-[#cc4e00]">Chroma Digital</span></h2>
+                    <p class="text-lg text-gray-600 mb-6">Founded in 2025, Chroma Digital is a full-service social media marketing agency dedicated to helping businesses of all sizes maximize their online presence and achieve measurable results.</p>
+                    <p class="text-lg text-gray-600 mb-8">Our team of certified social media experts, engineers, and data analysts work collaboratively to develop customized strategies that increase brand awareness, and generate leads.</p>
+                   
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-[#e68a00] bg-opacity-20 rounded-full p-3 mr-4">
+                                <i class="fas fa-lightbulb text-[#e68a00]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-1">Our Mission</h4>
+                                <p class="text-gray-600">To empower businesses through innovative social media strategies that deliver real business outcomes.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-[#e68a00] bg-opacity-20 rounded-full p-3 mr-4">
+                                <i class="fas fa-eye text-[#e68a00]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-1">Our Vision</h4>
+                                <p class="text-gray-600">To be the most trusted social media partner for businesses worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <a href="#contact" class="bg-[#cc4e00] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-[#e68a00] transition duration-300 inline-flex items-center">
+                        Contact Us <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Who We Are Section -->
+
+
+
+
+<section id="my-story" class="pt-10 pb-10 -mb-2 bg-black border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our <span class="text-[#ffa51f]">Story</span></h2>
+      <p class="text-lg text-gray-400 max-w-3xl mx-auto">
+        Chroma Digital began as a shared vision — two creatives with a passion for branding, storytelling, and building unforgettable digital experiences. Here's who we are.
+      </p>
+    </div>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <!-- Founder 1 -->
+      <div class="relative bg-neutral-900 rounded-xl p-8 shadow-lg">
+        <img src="Assets/rb.png" alt="Founder 1" class="rounded-lg mb-6 w-full h-64 object-cover object-[0_40%] shadow-md">
+        <h3 class="text-2xl font-semibold text-white mb-2">Robert Becerril</h3>
+        <p class="text-[#ffa51f] font-medium mb-4">Founder & Lead Engineer</p>
+        <img src="Assets/vt logo.png" alt="VT Logo" class="absolute top-[320px] right-10 h-10 w-auto" />
+        <p class="text-gray-400">
+          I'm a Computer Engineering student at Virgina Tech with a concentration in ML/AI. Every generation in my family has run some kind of business, so i've seen firsthand what it takes to build something from the ground up.
+          My dad runs a welding company, and I saw how difficult it can be to get your name out there when you're just starting out. Even great work can go unnoticed without the right tools or exposure.
+          With Chroma Digital, I want to change that. I'm using my technical skills to help business owners grow and stand out online. If you're putting in good work, people should know your name. Plain and simple.
+        </p>
+      </div>
+
+
+      <!-- Founder 2 -->
+      <div class="relative bg-neutral-900 rounded-xl p-8 shadow-lg">
+      <img src="Assets/ap.jpeg" alt="Founder 2" class="rounded-lg mb-6 w-full object-cover h-64 shadow-md">
+        <h3 class="text-2xl font-semibold text-white mb-2">Arjun Prasad</h3>
+        <p class="text-[#ffa51f] font-medium mb-4">Founder & Strategy Lead</p>
+        <img src="Assets/psu logo.png" alt="PSU Logo" class="absolute top-[320px] right-10 h-10 w-auto" />
+        <p class="text-gray-400">
+          Hi, I’m Arjun, Co-founder of Chroma Digital and a finance major at Penn State. I previously built and scaled a car detailing business using digital marketing that drove real growth. Now, I combine that hands-on experience with what I’m learning in business and finance to help other companies grow through targeted online strategies that generate leads and build lasting brands
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+           
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-3 pt-2 pl-4">Who are we?</h3>
+                    <p class="text-gray-400 mb-6 pl-4">Founded in 2025 in Northern Virginia, Chroma Digital was born from a passion for combining artistic vision with digital marketing excellence. We specialize in serving premium brands that demand nothing but the best.</p>
+                    <p class="text-gray-400 mb-8 pl-4">Our team consists of elite digital strategists, creative directors, and marketing specialists who understand the nuances of luxury branding in the digital space.</p>
+                   
+                   
+                </div>
+               
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-3 pt-2">Our Approach</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-[#ff914d] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-gem text-white text-xs"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold text-white mb-1">Exclusive Service</h4>
+                                <p class="text-gray-400">We limit our client roster to ensure each brand receives our full attention and premium service.</p>
+                            </div>
+                        </div>
+                       
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-[#ff914d] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-paint-brush text-white text-xs"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold text-white mb-1">Artistic Vision</h4>
+                                <p class="text-gray-400">Every campaign is treated as a work of art, meticulously crafted to showcase your brand's unique identity.</p>
+                            </div>
+                        </div>
+                       
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-[#ff914d] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-chart-line text-white text-xs"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold text-white -mb-1">Data-Driven Results</h4>
+                                <p class="text-gray-400 mb-0 t">While we focus on aesthetics, we never lose sight of the metrics that drive your business forward.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ 
+
+
+    <!-- CTA Section -->
+    <section class="py-20 hero-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Elevate Your Social Media Presence?</h2>
+            <p class="text-xl opacity-90 mb-10 max-w-3xl mx-auto">Schedule a free consultation with our team to discuss how we can help grow your business through strategic social media marketing.</p>
+            <a href="#contact" class="bg-white text-black px-10 py-4 rounded-md text-lg font-semibold hover:bg-gray-100 transition duration-300 inline-flex items-center mx-auto">
+                Get Your Free Strategy Session <i class="fas fa-arrow-right ml-3"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Get In <span class="text-[#ff914d]">Touch</span></h2>
+                    <p class="text-lg text-gray-600 mb-8">Have questions or ready to get started? Fill out the form and our team will get back to you within 48 hours.</p>
+                   
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                       
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-black rounded-full p-3 mr-4">
+                                <i class="fas fa-phone-alt text-[#ff914d]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-1">Phone</h4>
+                                <p class="text-gray-600">(555) 123-4567</p>
+                            </div>
+                        </div>
+                       
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-black rounded-full p-3 mr-4">
+                                <i class="fas fa-envelope text-[#ff914d]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-1">Email</h4>
+                                <p class="text-gray-600">hello@elevatemedia.com</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="mt-10">
+                        <h4 class="font-bold text-gray-900 mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 bg-black rounded-full flex items-center justify-center text-[#ff914d] hover:bg-[#ff914d] hover:text-white transition duration-300">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-black rounded-full flex items-center justify-center text-[#ff914d] hover:bg-[#ff914d] hover:text-white transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-black rounded-full flex items-center justify-center text-[#ff914d] hover:bg-[#ff914d] hover:text-white transition duration-300">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-black rounded-full flex items-center justify-center text-[#ff914d] hover:bg-[#ff914d] hover:text-white transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-black rounded-full flex items-center justify-center text-[#ff914d] hover:bg-[#ff914d] hover:text-white transition duration-300">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="md:w-1/2">
+                    <form class="bg-gray-50 rounded-xl p-8 shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ff914d] focus:border-[#ff914d]" placeholder="John Doe">
+                        </div>
+                       
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ff914d] focus:border-[#ff914d]" placeholder="john@example.com">
+                        </div>
+                       
+                        <div class="mb-6">
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ff914d] focus:border-[#ff914d]" placeholder="(555) 123-4567">
+                        </div>
+                       
+                        <div class="mb-6">
+                            <label for="service" class="block text-gray-700 font-medium mb-2">Service Interested In</label>
+                            <select id="service" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ff914d] focus:border-[#ff914d]">
+                                <option value="">Select a service</option>
+                                <option value="management">Social Media Management</option>
+                                <option value="ads">Paid Advertising</option>
+                                <option value="content">Content Strategy</option>
+                                <option value="influencer">Influencer Marketing</option>
+                                <option value="video">Video Production</option>
+                                <option value="analytics">Analytics & Reporting</option>
+                            </select>
+                        </div>
+                       
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ff914d] focus:border-[#ff914d]" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                       
+                        <button type="submit" class="w-full bg-[#ff914d] text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-[#cc4e00] transition duration-300">
+                            Send Message <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src = "Assets/CHROMA MASTER LOGO ICON TRANSPARENT.png" class="h-10 w-auto -mb-0 mr-2">
+                        <span class="text-xl font-bold">Chroma Digital</span>
+                    </div>
+                    <p class="text-gray-400">Helping businesses grow through strategic social media marketing since 2025.</p>
+                </div>
+               
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Social Media Management</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Paid Advertising</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Content Strategy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Influencer Marketing</a></li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cookie Policy</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 Chroma Digital. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-black text-[#ff914d] w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-gray-600 transition duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+       
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+       
+        // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+       
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+       
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+       
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+               
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+               
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                   
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
